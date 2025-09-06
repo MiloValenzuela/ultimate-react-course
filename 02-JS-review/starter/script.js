@@ -175,3 +175,10 @@ const updatedBook = {...book,
   const pagesRange = pages > 1000 ? "over a thausand" : "less than 1000";
 console.log(`The book has ${pagesRange} pages`);
 
+function getYear(str) {
+  return str.split("-")[0];
+}
+
+str => str.split("-")[0];
+
+console.log(getYear(publicationDate));
